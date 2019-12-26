@@ -2,7 +2,7 @@
 # -*- coding: UTF-8 -*-
 """
 @author: Link 
-@contact: zheng.long@shoufuyou.com
+@contact: zheng.long@sfy.com
 @module: service.py 
 @date: 2018-12-14
 @usage:
@@ -19,8 +19,8 @@ class Mail(object):
     @rpc
     def send(self, to, subject, contents):
         yag = yagmail.SMTP(
-            user='data.admin@shoufuyou.com',
-            password='1A2b3cAdmin',
+            user='data.admin@sfy.com',
+            password='123123123',
             host="smtp.exmail.qq.com",
             port=465
         )
